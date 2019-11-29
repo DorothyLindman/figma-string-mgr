@@ -1,0 +1,7 @@
+{
+  "name": "sample-plugin",
+  "id": "782295049038315284",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html"
+}

@@ -1,0 +1,56 @@
+{
+  "errors" : [
+    {
+    "id": "instance-1",
+    "type": "old text",
+    "title": "Title text 1",
+    "message": "Message text 1, which can go on for several lines",
+    "cta1": "Primary CTA 1",
+    "cta2": "Other CTA 1"
+    },
+    {
+    "id": "instance-2",
+    "type": "new text",
+    "title": "Title text 2",
+    "message": "Message text 2, which can go on for several lines",
+    "cta1": "Primary CTA 2",
+    "cta2": "Other CTA 2"
+    },
+        {
+    "id": "instance-3",
+    "type": "old text",
+    "title": "Title text 3",
+    "message": "Message text 3, which tells us that this only has one button.",
+    "cta1": "Only CTA 3"
+    },
+    {
+      "id": "instance-4",
+      "type": "new text",
+      "title": "Title text 4",
+      "message": "Message text 4, which tells us that this only has one button.",
+      "cta1": "Only CTA 4"
+      }
+    ],  
+  "menus" : [
+    {
+      "id": "instance-100",
+      "type": "old text",
+      "title": "Menu text 100",
+      "message": "Menu description 100, which can go on for several lines",
+      "cta1": "First Option 100",
+      "cta2": "Second Option 100",
+      "cta3": "Third Option 100",
+      "cta4": "Fourth Option 100"
+      },
+      {
+        "id": "instance-101",
+        "type": "new text",
+        "title": "Menu text 101",
+        "message": "Menu description 101, which can go on for several lines",
+        "cta1": "First Option 101",
+        "cta2": "Second Option 101",
+        "cta3": "Third Option 101",
+        "cta4": "Fourth Option 101"
+        }
+  ]
+}
