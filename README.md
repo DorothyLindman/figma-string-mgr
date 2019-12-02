@@ -21,16 +21,24 @@ the following requirements:
     but these plugins require the data to be available publicly. We need
     a plugin that uses files with restriced permissions (e.g., local files,
     private GitHub gists, Google Sheets or JSON files published behind a
-    firewall, etc.). (We expect the plugin user to manage permissions on 
-    their end.)
+    firewall, etc.). 
 
-## Figma file and sample data
+* __Provide a basic or "bare bones" user interface.__
+    At a minimum, the UI needs to let the user indicate a data source
+    (by selecting a file, entering a URL, etc.), choose to update selected
+    layers or update all layers, and activate the update process.
+
+## Sample Figma file and sample data
 
 I've set up a sample Figma file with example messages. The node names and 
 structures in this file match the sample data. You can access the sample
 file at the following link (you will need a Figma account to access the file):
 
 https://www.figma.com/file/r9etITej7OhH2HRDrpk2sC/Message-popups
+
+The first page of the Figma file shows the data structure and how it aligns
+to the text nodes. This page also calls out the relevant attributes of
+Figma text nodes.
 
 The _sample-data_ folder has the data for this Figma plugin in JSON, CSV,
 and Excel file. The JSON file is also available as a [public gist on GitHub](https://gist.github.com/DorothyLindman/29bf34ec5b34a19dbd1d24b17e39e02e). For a
@@ -42,8 +50,13 @@ following URL:
 
 ## Similar plugins
 
-The [Google Sheets Plugin](https://www.figma.com/c/plugin/735770583268406934/Google-Sheets-Sync) by The plugin _Google Sheets Sync_ by David Willames is an excellent
-    example of the functionality we need
+The [Google Sheets Plugin](https://www.figma.com/c/plugin/735770583268406934/Google-Sheets-Sync) by David Willames is an excellent
+    example of the functionality we need. (This plugin actually has more
+    features than we need, and the UI is very well done. However, this
+    plugin doesn't work with restricted-permissions files, so we can't use it.)
+
+There are other plugins which have similar functionality and public source
+code on GitHub.
 
 ### Text replacement plugins
 
