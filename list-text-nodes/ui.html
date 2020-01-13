@@ -1,0 +1,38 @@
+<head>
+</head>
+
+<body class="ui-modal">
+
+<h2>Text nodes in this file</h2>
+
+<button id="allPages">All pages</button>
+<button id="currentPage">Current page only</button>
+<button id="clear">Clear text</button>
+<script>
+
+document.getElementById('allPages').onclick = () => {
+  parent.postMessage({ pluginMessage: { type: 'getAll'} }, '*')
+};
+
+document.getElementById('currentPage').onclick = () => {
+  parent.postMessage({ pluginMessage: { type: 'getPage'} }, '*')
+};
+
+document.getElementById('clear').onclick = () => {
+  document.getElementById("nodeList").innerHTML = ""
+};
+
+</script>
+
+<p>"node ID","node name","string in node","parent ID","parent name","parent type","grandparent name","grandparent type"</p>
+<div id="nodeList" style="white-space: pre">
+</div>
+<script>
+
+   onmessage = (event) => {
+     document.getElementById("nodeList").innerHTML = event.data.pluginMessage.textProperties;
+   };
+
+</script>
+
+</body>
