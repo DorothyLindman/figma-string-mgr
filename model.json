@@ -1,5 +1,6 @@
 {
-  "errors" : [
+  "name": "errors",
+  "description": "Testing error messages in FrontAid"
     {
     "id": "instance-1",
     "type": "old text",
