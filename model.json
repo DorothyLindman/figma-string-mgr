@@ -31,26 +31,4 @@
       "cta1": "Only CTA 4"
       }
     ],  
-  "menus" : [
-    {
-      "id": "instance-100",
-      "type": "old text",
-      "title": "Menu text 100",
-      "message": "Menu description 100, which briefly describes each menu option.",
-      "cta1": "First Option 100",
-      "cta2": "Second Option 100",
-      "cta3": "Third Option 100",
-      "cta4": "Fourth Option 100"
-      },
-      {
-        "id": "instance-101",
-        "type": "new text",
-        "title": "Menu text 101",
-        "message": "Menu description 101, which briefly describes each menu option",
-        "cta1": "First Option 101",
-        "cta2": "Second Option 101",
-        "cta3": "Third Option 101",
-        "cta4": "Fourth Option 101"
-        }
-  ]
 }
