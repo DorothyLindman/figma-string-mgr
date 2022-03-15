@@ -48,7 +48,7 @@ following URL:
 
 ## Similar plugins
 
-__NOTE: check the status of these plugins.__
+__To do: check the status of these plugins.__
 
 The [Google Sheets Plugin](https://www.figma.com/c/plugin/735770583268406934/Google-Sheets-Sync) by David Willames is an excellent
     example of the functionality we need. (This plugin actually has more
