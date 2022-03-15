@@ -17,13 +17,11 @@ the following requirements:
 * __Update the text node from the corresponding data record.__
 
 * __Work with permissions-restricted data sources.__
-    There are a few plugins that are close to the funtionality we need,
-    but these plugins require the data to be available publicly. We need
-    a plugin that uses files with restriced permissions (e.g., local files,
+    The plugin must use files with restriced permissions (e.g., local files,
     private GitHub gists, Google Sheets or JSON files published behind a
     firewall, etc.). 
 
-* __Provide a basic or "bare bones" user interface.__
+* __Provide a basic user interface.__
     At a minimum, the UI needs to let the user indicate a data source
     (by selecting a file, entering a URL, etc.), choose to update selected
     layers or update all layers, and activate the update process.
@@ -49,6 +47,8 @@ following URL:
 
 
 ## Similar plugins
+
+__NOTE: check the status of these plugins.__
 
 The [Google Sheets Plugin](https://www.figma.com/c/plugin/735770583268406934/Google-Sheets-Sync) by David Willames is an excellent
     example of the functionality we need. (This plugin actually has more
